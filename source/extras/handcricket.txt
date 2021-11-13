@@ -1,0 +1,205 @@
+====== MENU ======
+1. Create server
+2. Join server
+==================
+Enter your choice: 1
+
+Creating server...
+Server created!
+Use ngrok? (Enter 1 for yes)
+> 1
+
+Server ip : 0.tcp.ngrok.io
+Server port: 17083
+
+Waiting for players...
+Player 1 connected!
+Player 2 connected!
+
+How many overs?
+> 3
+How many wickets per team?
+> 2
+
+Press enter to start the match
+
+Player 1 gets to choose 'heads' or 'tails'
+Player 1 chooses 'heads' and loses toss
+Player 2 chooses to bowl
+
+Player 1 bats:
+
+Waiting (0.1)    bat[ 6] <->  bowl[ 3]
+Waiting (0.2)    bat[10] <->  bowl[ 2]
+Waiting (0.3)    bat[ 9] <->  bowl[ 8]
+and its a wicket...
+Player 1 has a score of 16/1
+
+Waiting (0.4)    bat[ 8] <->  bowl[ 8]
+and its a multi...
+Player 1 has a score of 80/1
+
+Waiting (0.5)    bat[ 2] <->  bowl[ 6]
+Waiting (1.0)    bat[ 7] <->  bowl[ 9]
+over 1 ends...
+Player 1 has a score of 89/1
+
+.
+.
+.
+
+---------------------------------------------
+
+Waiting (1.5)    bat[ 6] <->  bowl[ 5]
+and its a wicket...
+Player 1 has a score of 154/2
+
+Player 1 is all out
+Target for Player 2 is 155
+
+Player 2 bats:
+
+Waiting (0.1)    bat[ 6] <->  bowl[ 3]
+
+.
+.
+.
+---------------------------------------------
+
+Waiting (3.0)    bat[ 9] <->  bowl[ 7]
+over 3 ends...
+Player 1 has a score of 489/1
+
+All balls played
+Target for Player 2 is 490
+
+Player 2 bats:
+
+Waiting (0.1)    bat[ 6] <->  bowl[ 3]
+
+.
+.
+.
+
+=============================================
+
+
+Enter server ip: 0.tcp.ngrok.io
+Enter server port: 17083
+
+Looking for the server...
+Connected to server!
+
+----------------------------------------------
+
+You get to choose heads or tails
+Enter 0 for heads, 1 for tails: 1
+
+You won the toss
+You get to choose bat or ball
+Enter 0 for bat, 1 for ball: 1
+
+1st innings begin
+Opponent bats:
+
+
+----------------------------------------------
+
+Opponent get to choose heads or tails
+Opponent chose tails
+Opponent won the toss
+
+1st innings begin
+You will bat:
+
+---------------------------------------------- 
+
+Waiting (0.1) Enter your move: 6
+bat[ 6] <->  bowl[ 3]
+
+Waiting (0.2) Enter your move: 10
+bat[10] <->  bowl[ 2]
+
+Waiting (0.3) Enter your move: 9
+bat[ 9] <->  bowl[ 8] and its a wicket...
+You has a score of 16/1
+
+Waiting (0.4) Enter your move: 8
+bat[ 8] <->  bowl[ 8] and its a multi...
+You has a score of 80/1
+
+Waiting (0.5) Enter your move: 2
+bat[ 2] <->  bowl[ 6]
+
+Waiting (1.0) Enter your move: 7
+bat[ 7] <->  bowl[ 9] over 1 ends...
+You has a score of 89/1
+
+-------------------------------------------------
+
+
+Waiting (1.5) Enter your move: 6
+bat[ 6] <->  bowl[ 5] and its a wicket...
+You have a score of 154/2
+
+You are all out
+Target for Opponent is 155
+
+Opponent will bat:
+
+Waiting (0.1) Enter your move: 7
+bat[ 9] <->  bowl[ 7]
+
+.
+.
+.
+-------------------------------------------------
+
+Waiting (3.0) Enter your move: 9
+bat[ 9] <->  bowl[ 7] over 3 ends...
+You have a score of 489/1
+
+All balls played
+Target for Opponent is 490
+
+Opponent will bat:
+
+Waiting (0.1) Enter your move: 7
+bat[ 9] <->  bowl[ 7]
+
+.
+.
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################################################
+
+
+MOVE_RESULT   ball_no   bat_move   ball_move   res   over_ends   runs   wickets
+
+res = multi/wicket/runs
+over_ends = 0/1 (False/True)

@@ -1,0 +1,80 @@
+'''CLIENT'''
+ROCK PAPER SCISSORS
+Enter name: Rahul
+Enter ip: ...
+Enter port: ...
+
+Connected to server
+Communicating...
+
+Server name: OBSIDIAN_OBLIGATION
+No of rounds: 5
+You are [Player 1]
+Opponent is [Pratik]
+
+Match starts...
+Enter 0 for rock, 1 for paper, 2 for scissors
+
+Round 1> 1
+You[1] won
+
+Round 2> 1
+Pratik[2] won
+
+Round 3> 1
+You[1] won
+
+Round 4> 1
+It was a draw
+
+Round 5> 1
+Pratik[2] won
+
+Match ends...
+The match is a draw
+
+Server disconnected
+
+=======================================================================================
+'''SERVER'''
+ROCK PAPER SCISSORS
+Enter server name: OBSIDIAN_OBLIGATION
+Enter no of rounds: 5
+
+Server online
+Server ip: 127.0.0.1
+Server port: 5050
+
+Waiting for player 1
+Player 1 Connected
+Waiting for player 2
+Player 2 Connected
+
+Players are: Rahul[1], Pratik[2]
+Match starts...
+
+Round 1> waiting for players..
+(1x0) Rahul[1] won
+
+Round 2> waiting for players..
+(2x0) Pratik[2] won
+
+Round 3> waiting for players..
+(1x2) Pratik[2] won
+
+Round 4> waiting for players..
+(1x1) It is a draw
+
+Round 5> waiting for players..
+(2x2) It is a draw
+
+Match ends...
+Pratik[2] won the match
+
+Players disconnected
+
+=========================================================================================
+
+// check for names
+// check for moves
+// msg stack
